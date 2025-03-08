@@ -9,3 +9,4 @@ for i in range(10):
         odd_count += 1
 
 # print the "odd_count" variable
+print(odd_count)

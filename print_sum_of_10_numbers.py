@@ -8,3 +8,4 @@ for i in range(10):
     total_sum += number_input
 
 # Print the total_sum variable after the loop finishes
+print(total_sum)

@@ -9,3 +9,4 @@ for i in range(101):
         even_count += 1
 
 # print the "even_count" variable after the loop finishes
+print(even_count)

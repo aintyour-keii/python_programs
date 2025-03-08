@@ -9,4 +9,7 @@ for i in range(9):
     sum_remaining_numbers += num
 
 # Calculate the difference of the first number and the sum of the remaining 9 numbers
+result = first_number - sum_remaining_numbers
+
 # Print the result
+print(result)

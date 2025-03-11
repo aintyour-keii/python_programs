@@ -13,3 +13,5 @@ while True:
 numbers.sort(reverse=True)
 
 # Print the sorted list
+if numbers:
+    print(numbers)

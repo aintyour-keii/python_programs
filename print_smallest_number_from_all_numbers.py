@@ -15,4 +15,6 @@ while True:
     except ValueError:
         break
 
-# Check if the variable is non "None", if so print the variable's value
+# Check if the variable is not "None", if so print the variable's value
+if lowest_number is not None:
+    print(lowest_number)

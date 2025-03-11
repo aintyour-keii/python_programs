@@ -11,7 +11,10 @@ while True:
     except ValueError:
         break
 
-# Calculate the average by using the sum() method to find the sum of all the numbers and len() to find the number of elements in the list
-average = sum(numbers) / len(numbers)
+# If there were any valid inputs
+if numbers:
+    # Calculate the average by using the sum() method to find the sum of all the numbers and len() to find the number of elements in the list
+    average = sum(numbers) / len(numbers)
 
-# Print the average
+    # Print the average
+    print(average)

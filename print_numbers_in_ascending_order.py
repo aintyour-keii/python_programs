@@ -13,5 +13,7 @@ while True:
         break
 
 # Check if there were any valid inputs by checking on the list
-# If there were valid inputs, using the sort method, sort the list in ascending order
-# Print the sorted list
+if numbers:
+    # If there were valid inputs, using the sort method, sort the list in ascending order
+    numbers.sort()
+    # Print the sorted list

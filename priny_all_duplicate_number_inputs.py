@@ -15,5 +15,6 @@ duplicated_numbers = []
 for num, count in numbers.items():
     if count > 1:
         duplicated_numbers.append(num)
-        
+
 # Print the list that stores all the numbers that was inputted more than once
+print(duplicated_numbers)

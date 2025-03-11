@@ -23,3 +23,5 @@ for num, count in numbers.items():
         number_with_most_repetitions = num
 
 # Print the variable that stores the input with the most number of repetition
+if number_with_most_repetitions is not None:
+    print(number_with_most_repetitions)

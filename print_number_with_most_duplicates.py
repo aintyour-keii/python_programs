@@ -7,8 +7,10 @@ while True:
     try:
         # Ask for a number input
         num = int(input("Enter a number: "))
-        # If it is a valid input, check if it is in the dictionary and add one to its value 
-        # otherwise add it to the dictionary with a value of 1
+        if num in numbers: # If it is a valid input, check if it is in the dictionary and add one to its value
+            numbers[num] += 1
+        else: # otherwise add it to the dictionary with a value of 1
+            numbers[num] = 1
     except ValueError:
         # If the input is invalid break out of the loop
         break

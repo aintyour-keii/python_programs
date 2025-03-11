@@ -19,3 +19,4 @@ for num, count in numbers.items():
     if count == 1:
         unique_numbers.append(num)
 # Print the list that stores all the unique numbers
+print(unique_numbers)

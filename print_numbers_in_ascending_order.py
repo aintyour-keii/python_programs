@@ -17,3 +17,4 @@ if numbers:
     # If there were valid inputs, using the sort method, sort the list in ascending order
     numbers.sort()
     # Print the sorted list
+    print(numbers)

@@ -15,3 +15,4 @@ for _ in range(10):
         seen_inputs.add(num)
 
 # Print the list
+print(numbers_to_be_displayed)

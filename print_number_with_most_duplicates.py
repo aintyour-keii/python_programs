@@ -16,5 +16,10 @@ while True:
         break
 
 # Initiate a variable to store the input with the most number of repetition
+number_with_most_repetitions = None
 # Loop throught the dictionary and identify the input with the most number of repetition
+for num, count in numbers.items():
+    if number_with_most_repetitions is None or count > numbers[number_with_most_repetitions]:
+        number_with_most_repetitions = num
+
 # Print the variable that stores the input with the most number of repetition

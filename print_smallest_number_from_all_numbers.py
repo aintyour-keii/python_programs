@@ -7,8 +7,10 @@ while True:
         num = int(input("Enter a number: "))
         # If the input is a valid
         # Check if the variable is None or the input is less than the variable
-        # If so, update the variable's value to the input
-        
+        if lowest_number is None or num < lowest_number:
+            # If so, update the variable's value to the input
+            lowest_number = num
+
     # If the input is invalid, break out of the loop
     except ValueError:
         break

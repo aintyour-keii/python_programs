@@ -10,5 +10,10 @@ for _ in range(10):
         numbers[num] = 1
 
 # Initialize a list to store all the duplicated numbers
+duplicated_numbers = []
 # Loop through the dictionary and add the number with a value of greater than 1 to the list
+for num, count in numbers.items():
+    if count > 1:
+        duplicated_numbers.append(num)
+        
 # Print the list that stores all the numbers that was inputted more than once

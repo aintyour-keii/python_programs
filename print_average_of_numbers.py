@@ -12,4 +12,6 @@ while True:
         break
 
 # Calculate the average by using the sum() method to find the sum of all the numbers and len() to find the number of elements in the list
+average = sum(numbers) / len(numbers)
+
 # Print the average

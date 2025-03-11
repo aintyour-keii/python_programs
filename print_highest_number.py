@@ -13,3 +13,5 @@ while True:
         break
 
 # Print the variable that store the highest number
+if highest_number is not None:
+    print(highest_number)

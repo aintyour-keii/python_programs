@@ -3,7 +3,7 @@ numbers = {}
 # Loop 10 times using a for loop
 for _ in range(10):
     # -> Ask for a number input
-    num = input(input("Enter a number: "))
+    num = int(input("Enter a number: "))
     if num in numbers: # -> If the number exists in the dictionary, increment its value by 1
         numbers[num] += 1
     else: # -> Otherwise, add the number in the dictionary with a count of 1

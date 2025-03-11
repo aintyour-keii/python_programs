@@ -8,3 +8,5 @@ while current_number <= 100:
     if current_number % 2 != 0:
     # If the current number is odd, print the number
         print(current_number)
+    # Increment count by 1
+    current_number += 1

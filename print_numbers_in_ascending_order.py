@@ -7,6 +7,7 @@ while True:
     try:
         # If the input is valid append the input to the list
         num = int(input("Enter a number: "))
+        numbers.append(num)
     except ValueError:
         # Otherwise break out of the loop
         break
